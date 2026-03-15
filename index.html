@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="./assets/fav.ico" type="image/x-icon">
+	<title>D&D</title>
+	<style>
+		body {
+			margin: 0;
+		}
+
+		#root {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			align-items: center;
+		}
+
+		#root .wrapper {
+			width: 75%;
+			min-width: 300px;
+		}
+
+		#root .wrapper * {
+			width: 100%;
+			padding: 10px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="root">
+		<div class="wrapper">
+			<img src="./assets/final-min.jpg" alt="dnd-characters">
+			<img src="./assets/final-gm-min.png" alt="dnd-characters">
+			<video controls autoplay muted loop playsinline>
+				<source src="./assets/final1.mp4" type="video/mp4" />
+			</video>
+			<video controls autoplay muted loop playsinline>
+				<source src="./assets/final2.mp4" type="video/mp4" />
+			</video>
+		</div>
+	</div>
+</body>
+
+</html>
